@@ -54,6 +54,8 @@ fun AnimatedShimmer(
                 )
             }
         }
+    } else {
+        contentAfterLoading()
     }
 
 }
